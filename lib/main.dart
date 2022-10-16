@@ -98,8 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 onColorChange: (Color color) {
                                   setState(() {
                                     _selectedPrimaryColor = color;
-                                    colorChanger.changePrimaryColor(
-                                        _selectedPrimaryColor.value);
+                                    colorChanger.changePrimaryColor(_selectedPrimaryColor.value);
                                   });
                                 },
                               ),
@@ -148,8 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 onColorChange: (Color color) {
                                   setState(() {
                                     _selectedSecondaryColor = color;
-                                    colorChanger.changePrimaryColor(
-                                        _selectedSecondaryColor.value);
+                                    colorChanger.changeSecondaryColor(_selectedSecondaryColor.value);
                                   });
                                 },
                               ),
